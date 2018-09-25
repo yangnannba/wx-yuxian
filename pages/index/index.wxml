@@ -1,0 +1,15 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+  <block wx:for="{{imgUrls}}" wx:key="number">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+ 
+  <view class='item'  wx:for="{{items}}" wx:key="number" >
+     <image src='{{item.img}}' class='img' bindtap='callmy' ></image>
+     <text class='h3'>{{item.text}}</text>
+     <button class='zhixun'  size="mini"  open-type="contact">咨询详细</button>
+  </view>
+

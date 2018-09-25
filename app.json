@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/ditu/ditu",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1E9FFF",
+    "navigationBarTitleText": "蔚县剪纸",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color":"#393D49",
+    "selectedColor":"#1E9FFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/shouye.png",
+        "selectedIconPath": "images/shouye_on.png"
+      },
+      {
+        "pagePath": "pages/ditu/ditu",
+        "text": "地图",
+        "iconPath": "images/ditu.png",
+        "selectedIconPath": "images/ditu_on.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "images/about.png",
+        "selectedIconPath": "images/about_on.png"
+      }
+      
+
+    ]
+  }
+}
